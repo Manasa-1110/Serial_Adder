@@ -1,0 +1,458 @@
+# //  Questa Sim-64
+# //  Version 2021.2_1 linux_x86_64 May 15 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# vsim -voptargs="+acc" serial_tb 
+# Start time: 14:56:39 on Jul 13,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vopt-143) Recognized 1 FSM in module "fsm(fast)".
+# Loading sv_std.std
+# Loading work.sv_tb_sv_unit(fast)
+# Loading work.serial_tb(fast)
+# Loading work.intf(fast__2)
+# Loading work.serial_adder(fast)
+# Loading work.fsm(fast)
+# Loading work.piso(fast)
+# Loading work.f_adder(fast)
+# Loading work.dff(fast)
+# Loading work.sipo(fast)
+# Loading work.intf(fast)
+add wave -position insertpoint  \
+sim:/serial_tb/intf_sa/i_a \
+sim:/serial_tb/intf_sa/i_b \
+sim:/serial_tb/intf_sa/i_clk \
+sim:/serial_tb/intf_sa/i_resetn \
+sim:/serial_tb/intf_sa/i_start \
+sim:/serial_tb/intf_sa/out_sum \
+sim:/serial_tb/intf_sa/WIDTH
+run -all
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :48 , b:210 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :48 , b:210 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:x , b :x , result :x
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :252 , b:29 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :252 , b:29 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:48 , b :210 , result :0
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :184 , b:174 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :184 , b:174 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:252 , b :29 , result :0
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :105 , b:92 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :105 , b:92 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:184 , b :174 , result :0
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :213 , b:233 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :213 , b:233 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:105 , b :92 , result :0
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :145 , b:40 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :145 , b:40 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:213 , b :233 , result :0
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :70 , b:107 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :70 , b:107 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:145 , b :40 , result :0
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :2 , b:164 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :2 , b:164 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:70 , b :107 , result :185
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :206 , b:231 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :206 , b:231 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:2 , b :164 , result :185
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :138 , b:38 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :138 , b:38 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:206 , b :231 , result :166
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :123 , b:97 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :123 , b:97 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:138 , b :38 , result :166
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :39 , b:178 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :39 , b:178 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:123 , b :97 , result :176
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :227 , b:253 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :227 , b:253 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:39 , b :178 , result :176
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :80 , b:60 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :80 , b:60 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:227 , b :253 , result :176
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :175 , b:127 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :175 , b:127 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:80 , b :60 , result :176
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :28 , b:136 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :28 , b:136 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:175 , b :127 , result :176
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :216 , b:203 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :216 , b:203 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:28 , b :136 , result :176
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :132 , b:10 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :132 , b:10 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:216 , b :203 , result :164
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :117 , b:117 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :117 , b:117 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:132 , b :10 , result :164
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :49 , b:134 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :49 , b:134 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:117 , b :117 , result :142
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :253 , b:193 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :253 , b:193 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:49 , b :134 , result :142
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :185 , b:0 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :185 , b:0 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:253 , b :193 , result :142
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :110 , b:67 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :110 , b:67 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:185 , b :0 , result :142
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :42 , b:156 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :42 , b:156 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:110 , b :67 , result :142
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :150 , b:223 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :150 , b:223 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:42 , b :156 , result :142
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :71 , b:30 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :71 , b:30 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:150 , b :223 , result :198
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :3 , b:171 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :3 , b:171 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:71 , b :30 , result :198
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :207 , b:89 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :207 , b:89 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:3 , b :171 , result :198
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :139 , b:234 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :139 , b:234 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:207 , b :89 , result :174
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :120 , b:213 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :120 , b:213 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:139 , b :234 , result :174
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :36 , b:20 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :36 , b:20 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:120 , b :213 , result :373
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :224 , b:161 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :224 , b:161 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:36 , b :20 , result :0
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :81 , b:87 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :81 , b:87 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:224 , b :161 , result :0
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :172 , b:224 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :172 , b:224 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:81 , b :87 , result :0
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :29 , b:35 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :29 , b:35 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:172 , b :224 , result :0
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :217 , b:98 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :217 , b:98 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:29 , b :35 , result :0
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :133 , b:191 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :133 , b:191 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:217 , b :98 , result :0
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :74 , b:254 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :74 , b:254 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:133 , b :191 , result :0
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :54 , b:57 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :54 , b:57 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:74 , b :254 , result :0
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :242 , b:120 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :242 , b:120 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:54 , b :57 , result :0
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :190 , b:181 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :190 , b:181 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:242 , b :120 , result :0
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :111 , b:244 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :111 , b:244 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:190 , b :181 , result :0
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :43 , b:55 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :43 , b:55 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:111 , b :244 , result :0
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :151 , b:118 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :151 , b:118 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:43 , b :55 , result :0
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :68 , b:131 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :68 , b:131 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:151 , b :118 , result :0
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :0 , b:194 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :0 , b:194 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:68 , b :131 , result :0
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :204 , b:13 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :204 , b:13 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:0 , b :194 , result :0
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :136 , b:76 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :136 , b:76 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:204 , b :13 , result :0
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :121 , b:153 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :121 , b:153 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:136 , b :76 , result :0
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :37 , b:216 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :37 , b:216 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:121 , b :153 , result :0
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :225 , b:27 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :225 , b:27 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:37 , b :216 , result :0
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :86 , b:90 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :86 , b:90 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:225 , b :27 , result :0
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :173 , b:151 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :173 , b:151 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:86 , b :90 , result :0
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :18 , b:214 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :18 , b:214 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:173 , b :151 , result :0
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :222 , b:17 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :222 , b:17 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:18 , b :214 , result :0
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :154 , b:162 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :154 , b:162 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:222 , b :17 , result :0
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :75 , b:80 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :75 , b:80 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:154 , b :162 , result :0
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :55 , b:237 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :55 , b:237 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:75 , b :80 , result :0
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :243 , b:44 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :243 , b:44 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:55 , b :237 , result :0
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :191 , b:111 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :191 , b:111 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:243 , b :44 , result :0
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :108 , b:184 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :108 , b:184 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:191 , b :111 , result :0
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :40 , b:251 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :40 , b:251 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:108 , b :184 , result :0
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :148 , b:58 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :148 , b:58 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:40 , b :251 , result :0
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :69 , b:101 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :69 , b:101 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:148 , b :58 , result :0
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :1 , b:182 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :1 , b:182 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:69 , b :101 , result :0
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :205 , b:241 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :205 , b:241 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:1 , b :182 , result :0
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :137 , b:48 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :137 , b:48 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:205 , b :241 , result :0
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :126 , b:115 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :126 , b:115 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:137 , b :48 , result :0
+# [GEN] Sending data to driver 
+# [[GEN]] -- a :58 , b:140 , result :0 
+# [DRV] RCVD data from driver 
+# [[DRV]] -- a :58 , b:140 , result :0 
+# [DRV] : Interface Triggered 
+# [intf] a:126 , b :115 , result :0
+# ** Note: $finish    : sv_tb.sv(139)
+#    Time: 3 us  Iteration: 0  Instance: /serial_tb
+# 1
+# Break in Module serial_tb at sv_tb.sv line 139
+# End time: 15:13:28 on Jul 13,2026, Elapsed time: 0:16:49
+# Errors: 0, Warnings: 0
